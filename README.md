@@ -47,9 +47,9 @@ Para rodar os testes, rode o seguinte comando
 <table>
   <tr>
     <td align="center"><a href="https://github.com/leofredy"><img src="https://avatars.githubusercontent.com/u/62650643?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leonardo Frederico da Silva</b></sub></a><br /><a href="https://github.com/App Master/doar-computadores-backend/commits?author=leofredy" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/TiagoGouvea"><img src="https://avatars.githubusercontent.com/u/2242549?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tiago Gouvêa</b></sub></a><br /><a href="#ideas-TiagoGouvea" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/BrunoTAlcantara"><img src="https://avatars.githubusercontent.com/u/29778550?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bruno Theodoro</b></sub></a><br /><a href="https://github.com/App Master/doar-computadores-backend/commits?author=BrunoTAlcantara" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mariaftavares"><img src="https://avatars.githubusercontent.com/u/83185858?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Maria Fernanda Tavares</b></sub></a><br /><a href="https://github.com/App Master/doar-computadores-backend/commits?author=mariaftavares" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/TiagoGouvea"><img src="https://avatars.githubusercontent.com/u/2242549?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tiago Gouvêa</b></sub></a><br /><a href="#ideas-TiagoGouvea" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/mazzillio"><img src="https://avatars.githubusercontent.com/u/29362144?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mattheus Mazzillio</b></sub></a><br /><a href="https://github.com/App Master/doar-computadores-backend/commits?author=mazzillio" title="Code">💻</a></td>
   </tr>
 </table>
