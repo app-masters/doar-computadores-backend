@@ -1,6 +1,6 @@
 # Doar Computadores
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![Colaboradores](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#colaboradores)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Este é um projeto Open Source elaborado pelos participantes do processo seletivo da 
@@ -16,6 +16,7 @@ a instituições.
   - [Índice](#índice)
   - [Rodando localmente](#rodando-localmente)
   - [Rodando os testes](#rodando-os-testes)
+  - [Colaboradores](#colaboradores)
 
 ## Rodando localmente
 
@@ -62,9 +63,7 @@ Para rodar os testes, rode o seguinte comando
   npm run test
 ```
 
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+## Colaboradores
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -79,5 +78,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
