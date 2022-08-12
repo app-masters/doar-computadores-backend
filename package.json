@@ -10,6 +10,8 @@
     "preinstall": "only-allow yarn",
     "migrations": "knex migrate:latest",
     "checks": "eslint \"**/*.js\" --max-warnings 0  && prettier-check \"**/*.js\"",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -24,6 +26,7 @@
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.20.0",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
