@@ -10,7 +10,8 @@
     "migrations": "knex migrate:latest",
     "checks": "eslint \"**/*.js\" --max-warnings 0  && prettier-check \"**/*.js\"",
     "contributors:add": "npx all-contributors add",
-    "contributors:generate": "npx all-contributors generate"
+    "contributors:generate": "npx all-contributors generate",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "cors": "^2.8.5",
     "dotenv-safe": "^8.2.0",
     "express": "^4.18.1",
+    "husky": "^8.0.1",
     "knex": "^2.2.0",
     "mysql2": "^2.3.3"
   },
