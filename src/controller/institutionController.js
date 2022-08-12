@@ -94,6 +94,7 @@ const insitution = async (req, res) => {
     }
   }
 }
+
 const returnNoEmpty = (about, field) => {
   const emptys = ['', null, undefined]
   if (emptys.includes(field)) {
@@ -101,29 +102,50 @@ const returnNoEmpty = (about, field) => {
   }
   return field
 }
+
+const putInstitutions = async (req, res) => {
+  const { validated } = req.body
+  const { id } = req.params
+
+  try {
+    await database('institutions').where({ id }).update({
+      validated: validated
+    })
+
+    return res.status(200).send()
+  } catch (error) {
+    return res.status(400).json({ error: error.message })
+  }
+}
+
 const getInstitutions = async (req, res) => {
   try {
     const allInstitutions = await database
       .select(['institutions.*'])
       .table('institutions')
       .orderBy('created_at', 'desc')
+      .where('validated', 'like', true)
+
     const returnInstitutions = allInstitutions.map((institution) => {
       //Retirando os vazios
       delete institution.email
+      delete institution.validated
 
       institution.complement = returnNoEmpty('Complement', institution.complement)
       institution.urlLinkedin = returnNoEmpty('Linkedin', institution.urlLinkedin)
       institution.urlFacebook = returnNoEmpty('Facebook', institution.urlFacebook)
       institution.urlInstagram = returnNoEmpty('Instagram', institution.urlInstagram)
       institution.urlSite = returnNoEmpty('Site', institution.urlSite)
+
       return institution
     })
-    return res.json(returnInstitutions)
+    return res.status(200).send(returnInstitutions)
   } catch (error) {
     return res.status(400).json({ error: error.message })
   }
 }
 module.exports = {
   insitution,
+  putInstitutions,
   getInstitutions
 }
