@@ -9,67 +9,12 @@ Este é um projeto Open Source elaborado pelos participantes do processo seletiv
 a instituições.
 
 
-
 ## Índice
 
 - [Doar Computadores](#doar-computadores)
   - [Índice](#índice)
   - [Rodando localmente](#rodando-localmente)
   - [Rodando os testes](#rodando-os-testes)
-  - [Índice](#índice-1)
-  - [Rodando localmente](#rodando-localmente-1)
-  - [Rodando os testes](#rodando-os-testes-1)
-  - [Colaboradores](#colaboradores)
-
-## Rodando localmente
-
-Clonando repositório
-
-```bash
-git clone https://github.com/app-masters/doar-computadores-backend.git
-```
-
-Entre no diretório do projeto
-
-```bash
-cd doar-computadores-backend
-```
-
-Instalando dependencias
-
-```bash
-npm install
-```
-
-Configurando variável de ambiente
-
-```bash
-Na raiz do projeto crie um arquivo chamado .env seguindo a seguinte estrutura 
-do arquivo .env.example na raiz do projeto.
-
-Apenas a variável "PORT" é opcional, sendo por padrão 8080.
-```
-
-
-## Rodando os testes
-
-Para rodar os testes, rode o seguinte comando
-
-```bash
-  npm run test
-```
-
-
-
-## Índice
-
-- [Doar Computadores](#doar-computadores)
-  - [Índice](#índice)
-  - [Rodando localmente](#rodando-localmente)
-  - [Rodando os testes](#rodando-os-testes)
-  - [Índice](#índice-1)
-  - [Rodando localmente](#rodando-localmente-1)
-  - [Rodando os testes](#rodando-os-testes-1)
   - [Colaboradores](#colaboradores)
 
 ## Rodando localmente
