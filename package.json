@@ -9,8 +9,8 @@
     "dev": "nodemon server.js",
     "migrations": "knex migrate:latest",
     "checks": "eslint \"**/*.js\" --max-warnings 0  && prettier-check \"**/*.js\"",
-    "contributors:add": "npx all-contributors add",
-    "contributors:generate": "npx all-contributors generate",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
     "prepare": "husky install"
   },
   "keywords": [],

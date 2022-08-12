@@ -44,17 +44,10 @@ npm install
 Configurando variável de ambiente
 
 ```bash
-Na raiz do projeto crie um arquivo chamado .env seguindo a seguinte estrutura, é 
-extremamente importate não dar espaços entre o sinal de = (igual).
+Na raiz do projeto crie um arquivo chamado .env seguindo a seguinte estrutura 
+do arquivo .env.example na raiz do projeto.
 
 Apenas a variável "PORT" é opcional, sendo por padrão 8080.
-
-PORT=3333 //Variável opcional, por padrão a porta é 8080
-MYSQL_HOST=host_do_seu_banco
-MYSQL_PORT=porta_do_seu_banco
-MYSQL_USER=usuario_do_seu_banco
-MYSQL_PASSWORD=senha_do_seu_banco
-MYSQL_DATABASE=nome_da_database_do_seu_banco
 ```
 
 
