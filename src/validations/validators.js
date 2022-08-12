@@ -61,15 +61,14 @@ const validatePhone = (phone) => {
   return regex.test(phone)
 }
 
-
-const validateInstitutionType =(type) =>{
-    return ['recycling','socialedtech','socialother'].includes(type.toLowerCase())
+const validateInstitutionType = (type) => {
+  return ['recycling', 'socialedtech', 'socialother'].includes(type.toLowerCase())
 }
 
-module.exports={
-    validateField,
-    validateEmail,
-    validateDevices,
-    validatePhone,
-    validateInstitutionType
+module.exports = {
+  validateField,
+  validateEmail,
+  validateDevices,
+  validatePhone,
+  validateInstitutionType
 }
