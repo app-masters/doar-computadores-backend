@@ -27,6 +27,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "BrunoTAlcantara",
+      "name": "Bruno Theodoro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29778550?v=4",
+      "profile": "https://github.com/BrunoTAlcantara",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7

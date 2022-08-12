@@ -1,7 +1,7 @@
 
 # Doar Computadores
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Este é um projeto Open Source elaborado pelos participantes do processo seletivo da 
@@ -48,6 +48,7 @@ Para rodar os testes, rode o seguinte comando
   <tr>
     <td align="center"><a href="https://github.com/leofredy"><img src="https://avatars.githubusercontent.com/u/62650643?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leonardo Frederico da Silva</b></sub></a><br /><a href="https://github.com/App Master/doar-computadores-backend/commits?author=leofredy" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/TiagoGouvea"><img src="https://avatars.githubusercontent.com/u/2242549?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tiago Gouvêa</b></sub></a><br /><a href="#ideas-TiagoGouvea" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/BrunoTAlcantara"><img src="https://avatars.githubusercontent.com/u/29778550?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bruno Theodoro</b></sub></a><br /><a href="https://github.com/App Master/doar-computadores-backend/commits?author=BrunoTAlcantara" title="Code">💻</a></td>
   </tr>
 </table>
 
