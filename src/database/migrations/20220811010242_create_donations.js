@@ -3,12 +3,19 @@
  * @returns { Promise<void> }
  */
 exports.up = function (knex) {
-  return knex.schema.createTable('devices', (table) => {
-    table.increments('id').primary().unique()
-    table.string('type').notNullable()
-    table.string('condition').notNullable()
-    table.integer('donations_iddonation').unsigned()
-    table.foreign('donations_iddonation').references('donations.iddonation').onDelete('CASCADE').onUpdate('CASCADE')
+  return knex.schema.createTable('donations', (table) => {
+    table.increments('iddonation').primary().unique()
+    table.string('name').notNullable()
+    table.string('email')
+    table.string('phone').notNullable()
+    table.string('zip').notNullable()
+    table.string('city').notNullable()
+    table.string('state').notNullable()
+    table.string('streetAddress').notNullable()
+    table.string('number').notNullable()
+    table.string('complement')
+    table.string('neighborhood').notNullable()
+    table.integer('deviceCount').notNullable().unsigned()
     table.timestamps(true, true)
   })
 }
@@ -18,5 +25,5 @@ exports.up = function (knex) {
  * @returns { Promise<void> }
  */
 exports.down = function (knex) {
-  return knex.schema.dropTable('devices')
+  return knex.schema.dropTable('donations')
 }
