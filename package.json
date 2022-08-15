@@ -9,6 +9,7 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js",
+    "heroku-prebuild": "yarn global add only-allow",
     "dev": "nodemon server.js",
     "preinstall": "only-allow yarn",
     "migrations": "knex migrate:latest",
