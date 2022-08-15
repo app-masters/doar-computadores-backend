@@ -22,6 +22,7 @@ const insitution = async (req, res) => {
   const validationFiels = validators.validateField([name, phone, zip, city, state, streetAddress, number, neighborhood])
   if (!email) validationFiels.push('email')
   if (!description) validationFiels.push('description')
+  if (!type) validationFiels.push('type')
   try {
     if (validationFiels.length > 0) {
       throw {
