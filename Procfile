@@ -1,2 +1,2 @@
 
-web: yarn global add only-allow && yarn install && node server.js
+web: npx only-allow yarn && yarn install && node server.js
